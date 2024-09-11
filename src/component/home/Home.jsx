@@ -43,7 +43,7 @@ function Home({ setAddpostClickedTrue, setAddpostClickedFalse }) {
       <Header />
       <div className="container-fluid my-3 ">
         <div className="container ">
-          <div className=" row row-cols-1  row-cols-sm-1 row-cols-lg-2 row-cols-xxl-2 ">
+          <div className=" row row-cols-1  row-cols-sm-1 row-row-cols-xl-2  row-cols-lg-2 row-cols-xxl-2 ">
             {posts.length
               ? posts.map((post, index) => (
                   <Post

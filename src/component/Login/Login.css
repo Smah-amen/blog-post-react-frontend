@@ -1,0 +1,75 @@
+.login-content {
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: #fff;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+    width: 85vw;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+}
+
+.login-content button {
+    background-color: #822570;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-content button:hover {
+    background-color: #641d54;
+}
+
+.header-text h3 {
+    color: #822570;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 400px) {
+    .login-content {
+        width: 80%;
+        padding: 30px;
+    }
+}
+@media (min-width: 576px) {
+    .login-content {
+        width: 70%;
+    }
+}
+@media (min-width: 768px) {
+    .login-content {
+        width: 65%;
+    }
+}
+@media (min-width: 992px) {
+    .login-content {
+        width: 55%;
+    }
+}
+@media (min-width: 1200px) {
+    .login-content {
+        width: 50%;
+    }
+}
+@media (min-width: 1400px) {
+    .login-content {
+        width: 45%;
+    }
+}
+
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 17px;
+    text-align: center;
+}
+

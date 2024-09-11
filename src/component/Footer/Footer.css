@@ -1,0 +1,17 @@
+footer a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ccc; 
+}
+/* 
+ul.list-unstyled.d-flex li {
+    margin-right: 15px;
+}
+
+ul.list-unstyled.d-flex li:last-child {
+    margin-right: 0;
+} */

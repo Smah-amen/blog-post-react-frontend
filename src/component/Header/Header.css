@@ -1,0 +1,13 @@
+.bg-image {
+    /* background-image: url('/images/back4.jpg');  */
+    /* backgroundcolor: perpalette; */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 60vh; 
+    padding: '60px 0';
+    /* opacity: 0.7; */
+    boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.9)'
+
+}
+

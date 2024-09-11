@@ -1,0 +1,41 @@
+.container {
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+}
+
+.container input,
+.container textarea {
+    padding: 0.7em;
+    border-radius: 8px;
+    color: #666;
+    font-size: 1rem;
+    font-weight: 500;
+    resize: none;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+}
+
+.container input::placeholder,
+.container textarea::placeholder {
+    color: #888;
+}
+.container input:focus {
+    outline: none;
+    border-color: #82276E;
+}
+.container textarea {
+    height: 120px;
+}
+
+.errorMessage {
+    font-size: 0.87rem;
+    font-weight: 500;
+    color: red;
+    visibility: hidden;
+}
+.container p {
+    margin-bottom: 0.6rem;
+}
